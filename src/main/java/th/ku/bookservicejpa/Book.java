@@ -30,6 +30,10 @@ public class Book {
         this.price = price;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Override
     public String toString() {
         return "Book{" +
@@ -38,4 +42,6 @@ public class Book {
                 ", price=" + price +
                 '}';
     }
+
+
 }
